@@ -14,8 +14,12 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.20",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
     "axios": "^1.13.3",
     "clsx": "^2.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "react-router-dom": "^7.13.0"
   }
 }
