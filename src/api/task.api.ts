@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Task } from "../features/tasks/task.types";
+import type { Task } from "../features/tasks/task.types";
 
 const api = axios.create({
   baseURL: "https://jsonplaceholder.typicode.com",
