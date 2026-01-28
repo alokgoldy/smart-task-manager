@@ -1,8 +1,8 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import App from "./App"
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import App from './App';
 
 const queryClient = new QueryClient();
 
 <QueryClientProvider client={queryClient}>
-  <App/>
-</QueryClientProvider>
+  <App />
+</QueryClientProvider>;
