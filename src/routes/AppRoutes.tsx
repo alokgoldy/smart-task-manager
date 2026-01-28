@@ -1,12 +1,12 @@
-import { BrowserRouter, Routes, Route}  from "react-router-dom";
-import Dashboard from "../pages/Dashboard";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Dashboard from '../pages/Dashboard';
 
 export default function AppRoutes() {
-    return (
+  return (
     <BrowserRouter>
-    <Routes>
-        <Route path="/" element={<Dashboard/>}/>
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+      </Routes>
     </BrowserRouter>
-    )
+  );
 }
