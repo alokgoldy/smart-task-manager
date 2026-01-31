@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { Task } from '../features/tasks/task.types';
 
 const api = axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com',
+  baseURL: 'https://jsonplaceholder.typicode.com'
 });
 
 export const fetchTasks = async () => {
@@ -12,7 +12,7 @@ export const fetchTasks = async () => {
 
 export const toggleTask = async (task: Task): Promise<Task> => {
   const res = await api.patch(`/todos/${task.id}`, {
-    completed: !task.completed,
+    completed: !task.completed
   });
   return res.data;
 };
